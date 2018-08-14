@@ -5,6 +5,16 @@ img {
     width: 200px;
     height: 300px;
 }
+p {
+    margin: 10px;
+}
+.nav {
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
 h1 {
     font-weight: bold;
     font-size: 80px;
@@ -18,8 +28,7 @@ h1 {
 h3 {
     animation-duration: 2s;
     animation-name: slidein;
-  }
-  
+} 
   @keyframes slidein {
     from {
       margin-left: 100%;
@@ -44,12 +53,12 @@ a:link {
     width: 240px;
     height: auto;
     text-align: center;
-    border-style: solid;
-    border-color: black;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 30px;
 }
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/Marvel-Superheroes.jpg");
-    height: 50%;
+    height: 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

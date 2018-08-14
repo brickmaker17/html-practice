@@ -2,11 +2,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 img {
-    width: 200px;
-    height: 300px;
-}
-p {
-    margin: 10px;
+    width: 300px;
+    height: 400px;
 }
 .nav {
     z-index: 1;
@@ -27,34 +24,21 @@ h1 {
 }
 h3 {
     color: black;
-    animation-duration: 2s;
-    animation-name: slidein;
 } 
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 200%; 
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-  
 a:link {
     text-decoration: none;
 }
 .heroes:hover .overlay {
     opacity: 1;
+    box-shadow: 10px 10px 5px grey;
+    transition: opacity 0.4s ease-in-out;
+
 }
 .heroes {
     position: relative;
-    overflow: hidden;
-    width: 240px;
+    width: auto;
     height: auto;
     text-align: center;
-    box-shadow: 10px 10px 5px grey;
     margin-bottom: 30px;
 }
 .hero-image {
@@ -80,18 +64,17 @@ a:link {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #2e3338;
+    background-color: #2e333897;
 }
 .text {
     color: white;
-    font-size: 20px;
+    width: 260px;
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
 }
 .heroesContainer {
     display: flex;

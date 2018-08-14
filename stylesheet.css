@@ -1,6 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+.text {
+    color: black;
+    margin-top: 20px;
+    width: 300px;
+}
 @media only screen and (min-width: 824px) {
 img {
     width: 300px;
@@ -155,8 +160,4 @@ h3 {
     width: 100vw;
     background-color: #cbc7c4;
 }
-.text {
-    color: black;
-    margin-top: 20px;
-    width: 300px;
-}
+

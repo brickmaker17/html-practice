@@ -6,9 +6,14 @@ img {
     height: 300px;
 }
 h1 {
+    font-weight: bold;
+    font-size: 80px;
     text-align: center;
-    margin-bottom: 40px;
-    padding-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 h3 {
     animation-duration: 2s;
@@ -42,6 +47,15 @@ a:link {
     border-style: solid;
     border-color: black;
 }
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/Marvel-Superheroes.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 30px;
+  }
 .heroesSection {
     background-color: #cbc7c4;
     height: 100vh;

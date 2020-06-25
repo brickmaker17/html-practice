@@ -22,4 +22,4 @@ Luke Barrett
 
 # License
 
-MIT
+MPL
